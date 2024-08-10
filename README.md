@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# **Foodie Landing Page**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a responsive landing page for "Foodie," a fictional food delivery service. The page was built using React.js and styled using CSS. It features a sleek design that includes a navbar, a main section with a mobile device mockup playing a video, a form section, and a footer. The page is designed to be fully responsive across various devices, including desktops, tablets, and mobile phones.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+   check out this https://foodie-app-by-at.netlify.app/
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Features**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Responsive Design**: The layout adjusts seamlessly across all screen sizes (desktop, tablet, mobile).
+- **Interactive Form**: Users can submit their name, phone number, and city to join the waitlist.
+- **Video Integration**: A video is displayed within a mobile device mockup on the main section of the page.
+- **Custom Overlay**: A red curved overlay with opacity applied over the background image.
+- **Styled Components**: Each section of the page is neatly organized and styled for a polished appearance.
 
-### `npm test`
+## **Project Structure**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+foodie-landing-page/
+│
+├── public/
+│ ├── index.html
+│ └── assets/
+│ ├── logo.png
+│ ├── background.png
+│ ├── mobile.png
+│ ├── video.mp4
+│
+├── src/
+│ ├── components/
+│ │ ├── Navbar.js
+│ │ ├── MainSection.js
+│ │ ├── FormSection.js
+│ │ └── Footer.js
+│ ├── styles/
+│ │ ├── navbar.css
+│ │ ├── mainsection.css
+│ │ ├── formsection.css
+│ │ └── footer.css
+│ ├── App.js
+│ └── index.js
+│
+├── README.md
+├── package.json
+└── .gitignore
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Getting Started**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Prerequisites**
 
-### `npm run eject`
+Before you begin, ensure you have the following installed on your system:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Node.js** (v12 or later)
+- **npm** or **yarn**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **Installation**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/foodie-landing-page.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Navigate to the project directory** :
+  ``bash
+   cd foodie-landing-page
 
-## Learn More
+3. **Install dependencies** :
+  ``bash
+  npm install
+    or
+  ``bash
+ yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ ### Running the Project
+  To start the development server, run:
+  ``bash
 
-### Code Splitting
+    npm start
+      or
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ``bash
+    yarn start
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This will open the project in your default web browser at http://localhost:3000.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Usage
+-  Navbar: Contains the logo on the left and a "Join the Waitlist" button on the right.
+-  Main Section: Includes a background image, a red overlay curve, a mobile device mockup with a video, and a call-to-action button.
+-  Form Section: Users can fill out their name, phone number, and city to join the waitlist. Upon submission, the form hides, and a "Thank you!" message is displayed.
+-  Footer: Displays the text "©Foodie, 2024" centered at the bottom of the page.
 
-### Advanced Configuration
+### Responsive Design
+This project is built to be fully responsive. The layout adapts to different screen sizes, ensuring a smooth and consistent user experience on any device.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### License
+This project is open source and available under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Contact
+For any inquiries, please reach out to abuiron80@gmail.com .
